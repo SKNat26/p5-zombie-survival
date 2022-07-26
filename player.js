@@ -1,5 +1,7 @@
 /*
-    class used to control one player
+    class used to control one player with the WASD keys
+    controlls the speed of player (might be useful later for powerups) and position of player
+    move() - uses ASCII values to update the player's positions
 */
 
 class Player {

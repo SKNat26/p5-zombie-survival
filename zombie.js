@@ -1,3 +1,10 @@
+/*
+    used to spawn as many zombies as needed
+    controlls the position of the zombies and speed (for increasing dificulty)
+    follow() - follows the coordinates of the players
+*/
+
+
 class Zombie {
     constructor(x, y, speed){
         this.xPos = x;
