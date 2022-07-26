@@ -1,3 +1,7 @@
+/*
+    class used to control one player
+*/
+
 class Player {
     constructor(x, y, speed){
         this.xPos = x;
@@ -6,19 +10,19 @@ class Player {
     }
 
     move() {
-        if (keyIsDown(LEFT_ARROW)) {
+        if (keyIsDown(65)) {
             this.xPos -= this.speedValue;
         }
     
-        if(keyIsDown(RIGHT_ARROW)) {
+        if(keyIsDown(68)) {
             this.xPos += this.speedValue;
         }
     
-        if(keyIsDown(UP_ARROW)) {
+        if(keyIsDown(87)) {
             this.yPos -= this.speedValue;
         }
     
-        if(keyIsDown(DOWN_ARROW)) {
+        if(keyIsDown(83)) {
             this.yPos += this.speedValue;
         }
 
